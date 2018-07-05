@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/babasport-all" />
+    <file type="web" url="file://$PROJECT_DIR$/babasport-console" />
+    <file type="web" url="file://$PROJECT_DIR$/babasport-login" />
+    <file type="web" url="file://$PROJECT_DIR$/babasport-portal" />
+    <file type="web" url="file://$PROJECT_DIR$/babasport-service-cms" />
+    <file type="web" url="file://$PROJECT_DIR$/babasport-service-cob" />
+    <file type="web" url="file://$PROJECT_DIR$/babasport-service-product" />
+    <file type="web" url="file://$PROJECT_DIR$/babasport-service-solr" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/babasport-common/pom.xml" />
+        <option value="$PROJECT_DIR$/babasport-console/pom.xml" />
+        <option value="$PROJECT_DIR$/babasport-dao/pom.xml" />
+        <option value="$PROJECT_DIR$/babasport-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/babasport-login/pom.xml" />
+        <option value="$PROJECT_DIR$/babasport-pojo/pom.xml" />
+        <option value="$PROJECT_DIR$/babasport-portal/pom.xml" />
+        <option value="$PROJECT_DIR$/babasport-service-cms/pom.xml" />
+        <option value="$PROJECT_DIR$/babasport-service-cob/pom.xml" />
+        <option value="$PROJECT_DIR$/babasport-service-product/pom.xml" />
+        <option value="$PROJECT_DIR$/babasport-service-solr/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

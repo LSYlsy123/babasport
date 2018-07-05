@@ -1,0 +1,35 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:task="http://www.springframework.org/schema/task"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+		http://www.springframework.org/schema/mvc
+		http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd
+		http://www.springframework.org/schema/context
+		http://www.springframework.org/schema/context/spring-context-4.0.xsd
+		http://www.springframework.org/schema/aop
+		http://www.springframework.org/schema/aop/spring-aop-4.0.xsd
+		http://www.springframework.org/schema/tx
+		http://www.springframework.org/schema/tx/spring-tx-4.0.xsd
+		http://www.springframework.org/schema/task
+   		http://www.springframework.org/schema/task/spring-task-4.0.xsd
+		http://code.alibabatech.com/schema/dubbo
+		http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <!--&lt;!&ndash;Dubbo消费方&ndash;&gt;-->
+    <!--&lt;!&ndash;1。名称 计算机 区别 唯一&ndash;&gt;-->
+    <!--<dubbo:application name="babasport-console-product"/>-->
+    <!--&lt;!&ndash;2。设置注册中心的地址 zookeeper   protocol是设置注册中心的种类  checked="false" 不检查&ndash;&gt;-->
+    <!--<dubbo:registry address="192.168.200.128:2181" protocol="zookeeper"/>-->
+    <!--&lt;!&ndash;不去zookeeper取，直接调用&ndash;&gt;-->
+    <!--<dubbo:registry address="N/A"/>-->
+    <!--&lt;!&ndash;4。调用此接口对应的实现累,超时时间单位毫秒 。不去注册中心取设置url url="dubbo://127.0.0.1:20880"&ndash;&gt;-->
+    <!--<dubbo:reference interface="cn.itcast.core.service.TestTbService" id="testTbService" timeout="60000"/>-->
+
+    <!--&lt;!&ndash;设置全局超时时间&ndash;&gt;-->
+    <!--&lt;!&ndash;<dubbo:consumer timeout="60000"/>&ndash;&gt;-->
+</beans>

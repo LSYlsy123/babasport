@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="babasport-all" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="babasport-all" target="1.8" />
+      <module name="babasport-common" target="1.8" />
+      <module name="babasport-console" target="1.8" />
+      <module name="babasport-dao" target="1.8" />
+      <module name="babasport-interface" target="1.8" />
+      <module name="babasport-login" target="1.8" />
+      <module name="babasport-pojo" target="1.8" />
+      <module name="babasport-portal" target="1.8" />
+      <module name="babasport-service-cms" target="1.8" />
+      <module name="babasport-service-cob" target="1.8" />
+      <module name="babasport-service-product" target="1.8" />
+      <module name="babasport-service-solr" target="1.8" />
+      <module name="parent191" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
